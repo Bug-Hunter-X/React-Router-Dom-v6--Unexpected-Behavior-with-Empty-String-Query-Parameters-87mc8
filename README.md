@@ -1,0 +1,3 @@
+# React Router Dom v6 Empty String Query Parameter Bug
+
+This repository demonstrates a bug in React Router Dom v6 where empty string query parameters are not handled correctly.  The bug manifests as a missing or incorrectly interpreted query parameter when navigating to a route with an empty string as a query parameter value.  The solution provided ensures that empty string query parameters are interpreted as intended.
