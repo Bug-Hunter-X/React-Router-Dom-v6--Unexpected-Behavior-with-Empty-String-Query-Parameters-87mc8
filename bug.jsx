@@ -1,0 +1,1 @@
+In React Router Dom v6, navigating to a route with a query parameter that is an empty string can lead to unexpected behavior.  For example, if you have a route like `/search?q=` and you try to navigate to it, the query parameter might not be parsed correctly. This often manifests as the query parameter being completely absent, or as a different, unexpected value.
